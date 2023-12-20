@@ -1,0 +1,50 @@
+{
+    "name": "tulparstudyo/cms-auth",
+    "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "license": "MIT",
+    "version": "1.01",
+    "type": "tcms",
+    "keywords": [
+        "tulparstudyo",
+        "cms-login",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Ahmet Hamdi",
+            "email": "bayrakahmethamdi@gmail.com",
+            "homepage": "https://tulparstudyo.com",
+            "role": "Author"
+        }
+    ],
+    "homepage": "https://gtulparstudyo.com",
+    "support": {
+        "issues": "https://github.com/tulparstudyo/cms-login/issues",
+        "source": "https://github.com/tulparstudyo/cms-login",
+        "docs": "https://github.com/tulparstudyo/cms-login/docs",
+        "rss": "https://github.com/tulparstudyo/cms-login/rss",
+        "security": "https://github.com/tulparstudyo/cms-login/security"
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+        "phpunit/phpunit": "<8.0"
+    },
+    "autoload": {
+        "psr-4": {
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+        },
+        "files": []
+    },
+    "config": {
+    },
+    "scripts": {
+    }
+}
