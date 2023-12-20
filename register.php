@@ -2,8 +2,8 @@
 /**
  * bu eklenti CMS için
  */
-defined('AUTH_FOLDER') or define('AUTH_FOLDER', 'tulparstudyo/cms-auth-main');
-defined('AUTH_LANG') or define('AUTH_LANG', 'tulparstudyo/cms-auth-main::localize.');
+defined('AUTH_FOLDER') or define('AUTH_FOLDER', 'tulparcms/cms-auth-main');
+defined('AUTH_LANG') or define('AUTH_LANG', 'tulparcms/cms-auth-main::localize.');
 
 if(is_file(__DIR__.'/controller/TcmsAuthenticate.php')){
     include_once(__DIR__.'/controller/TcmsAuthenticate.php');
