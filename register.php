@@ -4,17 +4,15 @@
  */
 defined('AUTH_FOLDER') or define('AUTH_FOLDER', 'tulparcms/cms-auth-main');
 defined('AUTH_LANG') or define('AUTH_LANG', 'tulparcms/cms-auth-main::localize.');
-
 if(is_file(__DIR__.'/controller/TcmsAuthenticate.php')){
     include_once(__DIR__.'/controller/TcmsAuthenticate.php');
 }
 TCMS()->addAction('routing', 'cms_auth_routing', 1);
-TCMS()->addAction('localize', 'cms_auth_localize', 1);
 function cms_auth_localize(){
     $path = storage_path('tcms/'.AUTH_FOLDER.'/lang');
     \Lang::addNamespace(REPOSITY_FOLDER, $path);
 }
-
+TCMS()->addAction('localize', 'cms_auth_localize', 1);
 function cms_auth_routing(){
     Route::group([
         'prefix'=>\Tulparstudyo\Cms\CmsLoader::ADMIN,
